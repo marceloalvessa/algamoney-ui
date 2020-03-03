@@ -12,7 +12,7 @@ export class CategoriaService {
     const headers = new Headers();
     headers.append('Authorization', 'Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg==');
 
-    return this.http.get(this.categoriasUrl, { Headers })
+    return this.http.get(this.categoriasUrl, { headers })
       .toPromise()
       .then(response => response.json());
   }
