@@ -7,6 +7,7 @@ import { ConfirmationService } from 'primeng/components/common/api';
 
 import { LancamentoService } from './../lancamentos/lancamento.service';
 import { PessoaService } from './../pessoas/pessoa.service';
+import { CategoriaService } from './../categorias/categoria.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorHandlerService } from './error-handler.service';
 
@@ -26,6 +27,7 @@ import { ErrorHandlerService } from './error-handler.service';
   providers: [
     LancamentoService,
     PessoaService,
+    CategoriaService,
     ErrorHandlerService,
 
     ConfirmationService,
