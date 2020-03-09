@@ -13,6 +13,7 @@ import { CategoriaService } from './../categorias/categoria.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorHandlerService } from './error-handler.service';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component';
+import { AuthService } from './../seguranca/auth.service';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada.component'
     PessoaService,
     CategoriaService,
     ErrorHandlerService,
+    AuthService,
 
     ConfirmationService,
     Title,
