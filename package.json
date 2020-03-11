@@ -25,10 +25,10 @@
     "angular2-jwt": "^0.2.3",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
-    "moment": "^2.18.1",
-    "ng2-currency-mask": "^4.1.0",
+    "moment": "^2.24.0",
+    "ng2-currency-mask": "^5.3.1",
     "ng2-toasty": "^4.0.3",
-    "primeng": "^4.1.0",
+    "primeng": "^4.1.0-rc.2",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4",
     "@angular/cli": "1.2.7",
@@ -42,17 +42,18 @@
     "karma": "~1.7.0",
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
-    "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
-    "typescript": "^2.3.4"
+    "typescript": "~2.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "engines": {
-    "node": "8.1.2",
-    "npm": "5.0.3"
+    "node": "12.14.1",
+    "npm": "6.13.4"
   }
 }
