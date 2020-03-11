@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://marcelo-angular.herokuapp.com'
+  apiUrl: 'https://marcelo-api.herokuapp.com'
 };
