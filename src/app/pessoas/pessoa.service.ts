@@ -1,4 +1,4 @@
-import { Http, URLSearchParams  } from '@angular/http';
+import { URLSearchParams  } from '@angular/http';
 import { Injectable } from '@angular/core';
 
 import 'rxjs/add/operator/toPromise';
@@ -31,7 +31,7 @@ export class PessoaService {
       params.set('nome', filtro.nome);
     }
 
-    return this.http.get(`${this.pessoasUrl}`)
+    return this.http.get(`${this.pessoasUrl}`, { search: params })
       .toPromise()
       .then(response => {
         const responseJson = response.json();
