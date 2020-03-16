@@ -6,8 +6,8 @@ import localePt from '@angular/common/locales/pt';
 
 import { ToastyModule } from 'ng2-toasty';
 import { JwtHelper } from 'angular2-jwt';
-import { ConfirmDialogModule } from 'primeng/components/confirmdialog/confirmdialog';
-import { ConfirmationService } from 'primeng/components/common/api';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import { ConfirmationService } from 'primeng/api';
 
 import { NaoAutorizadoComponent } from './nao-autorizado.component';
 import { LancamentoService } from './../lancamentos/lancamento.service';
