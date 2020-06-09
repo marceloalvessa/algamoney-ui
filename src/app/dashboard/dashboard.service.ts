@@ -4,7 +4,7 @@ import { AuthHttp } from 'angular2-jwt';
 import 'rxjs/operator/toPromise';
 import * as moment from 'moment';
 
-import { environment } from './../../environments/environment.prod';
+import { environment } from './../../environments/environment';
 
 @Injectable()
 export class DashboardService {
