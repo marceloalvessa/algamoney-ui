@@ -8,6 +8,7 @@ import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
 import { TooltipModule } from 'primeng/tooltip';
 import { PanelModule } from 'primeng/panel';
+import { DialogModule } from 'primeng/dialog';
 
 import { PessoasRoutingModule } from './pessoa-routing.module';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
@@ -24,6 +25,7 @@ import { SharedModule } from './../shared/shared.module';
     TableModule,
     TooltipModule,
     PanelModule,
+    DialogModule,
     InputMaskModule,
 
     SharedModule,
